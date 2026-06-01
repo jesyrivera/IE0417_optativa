@@ -1,5 +1,5 @@
 {
-  "tests": 41,
+  "tests": 47,
   "name": "AllTests",
   "testsuites": [
     {
@@ -136,7 +136,7 @@
     },
     {
       "name": "GradeUtilsTest",
-      "tests": 17,
+      "tests": 23,
       "testsuite": [
         {
           "name": "CalculateAverage",
@@ -222,6 +222,36 @@
           "name": "GradeBoundaryBetweenBAndA",
           "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
           "line": 73
+        },
+        {
+          "name": "ValidGradeNormalValue",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 81
+        },
+        {
+          "name": "InvalidGradeNormalValue",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 85
+        },
+        {
+          "name": "LowerBoundaryValid",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 89
+        },
+        {
+          "name": "UpperBoundaryValid",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 93
+        },
+        {
+          "name": "BelowLowerBoundary",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 97
+        },
+        {
+          "name": "AboveUpperBoundary",
+          "file": "\/home\/kali\/IE0417_optativa\/laboratorio-testing\/tests\/test_grade_utils.cpp",
+          "line": 101
         }
       ]
     }

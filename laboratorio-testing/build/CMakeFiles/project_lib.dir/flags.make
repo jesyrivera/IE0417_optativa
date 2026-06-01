@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/kali/IE0417_optativa/laboratorio-testing/include
 
-CXX_FLAGS = -std=gnu++17 --coverage -O0 -g
+CXX_FLAGS = -std=gnu++17
 

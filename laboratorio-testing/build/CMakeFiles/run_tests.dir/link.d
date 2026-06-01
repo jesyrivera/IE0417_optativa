@@ -15,7 +15,6 @@ run_tests: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/x86_64-linux-gnu/libm.so.6 \
   /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
-  /usr/lib/gcc/x86_64-linux-gnu/14/libgcov.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
@@ -69,8 +68,6 @@ lib/libgtest.a:
 /usr/lib/x86_64-linux-gnu/libm.so.6:
 
 /usr/lib/x86_64-linux-gnu/libmvec.so.1:
-
-/usr/lib/gcc/x86_64-linux-gnu/14/libgcov.a:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
 
