@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kali/IE0417_optativa/laboratorio-testing/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
