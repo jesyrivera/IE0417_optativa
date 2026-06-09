@@ -1,0 +1,20 @@
+flowchart TB
+    U[Usuarios del sistema<br/>Publico, estudiantes, profesores, administrativos, alumni]
+    EXT[Servicios externos<br/>SMTP, Google APIs, Facebook, reCAPTCHA]
+    NGINX[NGINX<br/>Servidor web y proxy]
+    APP[EIEInfo<br/>Aplicacion Django con Gunicorn]
+    DB[(MySQL / MariaDB)]
+    STATIC[/Archivos estaticos<br/>CSS, JS, imagenes/]
+    MEDIA[/Archivos subidos<br/>media/]
+    CI[Drone CI/CD]
+
+    U -->|HTTP / HTTPS| NGINX
+    NGINX -->|Redirige solicitudes| APP
+    NGINX --> STATIC
+    NGINX --> MEDIA
+    APP --> DB
+    APP --> EXT
+    APP --> MEDIA
+    CI -->|Construye y prueba| APP
+    CI -->|Smoke tests por URL| NGINX
+    CI --> DB
